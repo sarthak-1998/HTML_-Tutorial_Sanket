@@ -1,0 +1,19 @@
+p{
+    
+   
+   border: 2px dashed black;
+   color: blue;
+}
+
+body{
+    background-color: gray;
+}
+
+.test{
+    color: orange;
+    border: 1px solid beige;
+}
+
+#test2 {
+    color: chocolate;
+}
