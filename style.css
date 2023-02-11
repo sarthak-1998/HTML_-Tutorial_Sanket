@@ -1,6 +1,6 @@
 p{
     
-   
+   font-size: x-large;
    border: 2px dashed black;
    color: blue;
 }
@@ -11,9 +11,44 @@ body{
 
 .test{
     color: orange;
-    border: 1px solid beige;
+    border: 1px solid b;
 }
 
 #test2 {
     color: chocolate;
 }
+
+b {
+    display:block;
+    background-color: yellow;
+}
+
+
+
+
+
+.newlayout{
+    display: flex;
+    flex-direction:row;
+   
+}
+
+
+.newlayout div{
+
+    background-color: red;
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    margin: 10px;
+    flex-basis: 400px ;
+    /* for direction = row - width 
+    for direction = column - height */
+   
+
+}
+
+.first{
+    flex-shrink: 0.2;
+}
+
