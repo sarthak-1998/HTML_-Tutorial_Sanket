@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+}
+
+
 p{
     
    font-size: x-large;
@@ -52,3 +57,31 @@ b {
     flex-shrink: 0.2;
 }
 
+
+#parent{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content:space-evenly; /* main axis*/
+    align-items: center; /* cross axis*/
+
+    /* space-around - more space around the div - spacing on both sides of div equally
+
+space-between - more space between the div, no space at extreme sides
+
+space - evenly - spacing the rest of screen area evenly */
+
+}
+
+.child{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+    /* margin: 20px;
+  */
+    
+}
