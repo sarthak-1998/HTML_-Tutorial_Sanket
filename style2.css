@@ -1,7 +1,9 @@
+
+
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 300vh;
     
 }
 
@@ -9,6 +11,15 @@ body {
     display: flex;
     flex-direction: column;
  
+}
+
+@media screen and (min-width: 500px) {
+    #parent{
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+    
 }
 
 nav, footer{
@@ -26,14 +37,36 @@ nav ul li {
     list-style: none;
     padding: 10px;
     margin: 2px;
+
+    @media screen and (min-width: 500px) {
+        
+            display:flex;
+            flex-wrap: wrap;
+    
+        
+        
+    }
 }
+
+
 
 section{
     flex-grow: 1;
     justify-content: center;
     align-items: center;
     display: flex;
+   position: relative;
 
+
+}
+
+section span {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position:relative ;
+    top: -10px;
+    right: 90px;
 }
 
 #logo {

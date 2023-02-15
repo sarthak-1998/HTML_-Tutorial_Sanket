@@ -1,0 +1,45 @@
+
+body {
+    background-color: yellow;
+}
+
+#logo {
+    max-width: 100px;
+
+}
+
+
+
+@media screen  and (min-width:500px) {
+    body {
+        background-color: green;
+        
+    }
+
+
+    *{
+        max-width: 100%;
+    }
+    
+    #logo {
+        width:500px ;
+        height: 67px;
+
+
+    }
+}
+
+
+@media screen  and (min-width:750px) {
+    body {
+        background-color: pink;
+        
+    }
+
+
+    *{
+        max-width: 100%;
+    }
+    
+}
+
