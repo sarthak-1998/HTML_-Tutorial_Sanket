@@ -1,0 +1,43 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation:  test 1000ms linear infinite;
+    top: 0px;
+    position: absolute;
+}
+
+@keyframes test {
+    0% {
+        background-color: red;
+        top: 0px;
+
+    }
+    24.9%{
+        background-color: red;
+    }
+    
+    25%{
+        background-color: black;
+    }
+  
+
+    49.9% {
+        background-color: black;
+        top: 150px;
+    }
+    50%{
+        background-color: red;
+    }
+    74.9%{
+        background-color: red;
+    }
+    75%{
+        background-color: black;
+    }
+
+    100% {
+        background-color: black;
+        top:0px;
+    }
+}

@@ -1,45 +1,37 @@
-
 body {
-    background-color: yellow;
+    background-color: pink;
 }
 
-#logo {
-    max-width: 100px;
+@media screen and (max-width: 768px) and (min-width: 600px){
+  
+    
 
-}
+    * {
+        max-width: 100%;
+        display: none;
+    }
 
+    #container {
 
-
-@media screen  and (min-width:500px) {
-    body {
-        background-color: green;
+        width: 400px;
         
     }
 
-
-    *{
-        max-width: 100%;
-    }
-    
-    #logo {
-        width:500px ;
-        height: 67px;
-
-
+    img {
+        height: auto;
     }
 }
 
+#printmsg{
+    font-size: 200px;
+    display: none;
+}
 
-@media screen  and (min-width:750px) {
-    body {
-        background-color: pink;
-        
+@media print {
+
+    #printmsg {
+    display: block;
     }
 
-
-    *{
-        max-width: 100%;
-    }
-    
 }
 
