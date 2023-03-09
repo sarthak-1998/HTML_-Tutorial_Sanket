@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    animation:  test 1000ms linear infinite;
+    animation:  test 1000ms linear 2;
     top: 0px;
     position: absolute;
 }
@@ -39,5 +39,7 @@
     100% {
         background-color: black;
         top:0px;
+        width: 10px;
+        height: 10px;
     }
 }
