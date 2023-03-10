@@ -47,3 +47,4 @@ SELECT * FROM second ORDER BY DoB DESC;
   SELECT * FROM second WHERE Name LIKE "%a%";
 
   SELECT * FROM second WHERE Gender = 'Female' ORDER BY DoB DESC LIMIT 2;   
+
